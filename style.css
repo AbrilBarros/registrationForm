@@ -5,7 +5,7 @@ body {
     background-color: #1b1b32;
     color: #f5f6f7;
     font-family: Tahoma;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 h1,
@@ -36,6 +36,10 @@ label {
     margin: 0.5rem 0;
 }
 
+.title-input {
+    font-size: 20px;
+}
+
 input,
 textarea,
 select {
@@ -49,6 +53,11 @@ textarea {
     background-color: #0a0a23;
     border: 1px solid #0a0a23;
     color: #ffffff;
+    font-size: 18px;
+}
+
+select{
+    font-size: 18px;
 }
 
 .inline {
@@ -62,8 +71,16 @@ input[type="submit"] {
     width: 60%;
     margin: 1em auto;
     height: 2em;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     background-color: #3b3b4f;
     border-color: white;
     min-width: 300px;
+}
+
+input[type="file"] {
+    padding: 1px 2px;
+}
+
+a {
+    color: #dfdfe2;
 }

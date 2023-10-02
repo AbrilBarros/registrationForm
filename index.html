@@ -13,12 +13,12 @@
     <p>Please fill out this form with the required information</p>
     <form method="post" action='https://register-demo.freecodecamp.org'>
         <fieldset>
-            <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text"
+            <label for="first-name" class="title-input">Enter Your First Name: <input id="first-name" name="first-name" type="text"
                     required /></label>
-            <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text"
+            <label for="last-name" class="title-input">Enter Your Last Name: <input id="last-name" name="last-name" type="text"
                     required /></label>
-            <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
-            <label for="new-password">Create a New Password: <input id="new-password" name="new-password"
+            <label for="email" class="title-input">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+            <label for="new-password" class="title-input">Create a New Password: <input id="new-password" name="new-password"
                     type="password" pattern="[a-z0-5]{8,}" required /></label>
         </fieldset>
         <fieldset>
@@ -32,20 +32,20 @@
             </label>
         </fieldset>
         <fieldset>
-            <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file"
+            <label for="profile-picture" class="title-input">Upload a profile picture: <input id="profile-picture" type="file"
                     name="file" /></label>
-            <label for="age">Input your age (years): <input id="age" type="number" name="age" min="13"
+            <label for="age" class="title-input">Input your age (years): <input id="age" type="number" name="age" min="13"
                     max="120" /></label>
-            <label for="referrer">How did you hear about us?
+            <label for="referrer" class="title-input">How did you hear about us?
                 <select id="referrer" name="referrer">
-                    <option value="">(select one)</option>
-                    <option value="1">freeCodeCamp News</option>
-                    <option value="2">freeCodeCamp YouTube Channel</option>
-                    <option value="3">freeCodeCamp Forum</option>
-                    <option value="4">Other</option>
+                    <option disabled selected value>(select one)</option>
+                    <option value="freeCodeCamp-news">freeCodeCamp News</option>
+                    <option value="freeCodeCamp-youTube-channel">freeCodeCamp YouTube Channel</option>
+                    <option value="freeCodeCamp-forum">freeCodeCamp Forum</option>
+                    <option value="other">Other</option>
                 </select>
             </label>
-            <label for="bio">Provide a bio:
+            <label for="bio" class="title-input">Provide a bio:
                 <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
             </label>
         </fieldset>
